@@ -6,8 +6,39 @@
     height: 90vh;
 }
 
-/* personalizzo il footer  */
+
 footer {
-    height: 13vh;
     background-color: cornflowerblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.mezzo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contatti p {
+    display: flex;
+    align-items: center;
+}
+
+.passioni {
+    height: 80vh;
+    background-color: lightskyblue;
+}
+
+.foglio {
+    padding: 3%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border: 1px solid black;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999; 
 }
